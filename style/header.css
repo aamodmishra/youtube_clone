@@ -23,16 +23,29 @@
     width: 60px;
     display: flex;
     align-items: center;
+    background-color:rgb(244, 243, 243);
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-width: 1px;
 
     
    
 }
+.search-icon{
+    height: 27px;
+    margin-left: 10px;
+}
 .voice-search-button{
     height: 40px;
-    width: 60px;
-    border-radius:40px;
+    width: 40px;
+    border-radius:50%;
+    margin-left: 9px;
     display: flex;
     align-items: center;
+    border-color: rgb(192,192,192);
+    background-color:rgb(244, 243, 243);
+    border-style: none;
+
 }
 .search-bar{
     flex: 1;
@@ -43,6 +56,7 @@
     border-style: solid;
     border-color: rgb(192,192,192);
     border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
     
 }
 .search-bar::placeholder{
