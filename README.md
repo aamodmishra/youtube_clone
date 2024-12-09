@@ -1,1 +1,2 @@
-# youtube_clone
+this ia a simple clone fo yt .
+just frontend  
