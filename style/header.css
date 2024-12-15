@@ -13,7 +13,7 @@
 .middle-section{
     flex: 1;
     margin-left: 70px;
-     margin-right: 35px; 
+    margin-right: 35px; 
     max-width: 500px;
     display: flex;
     align-items: center;
@@ -63,11 +63,6 @@
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.right-section{
-    width: 215px;
-    background-color: lightpink;
-}
 .hamburger-menu{
     margin-left: 24px;
     height: 20px;
@@ -80,4 +75,63 @@
 
 }
 
+
+.right-section{
+    
+    width: 215px;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+}
+.uplode-button{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    border-color: rgb(192,192,192);
+    background-color:white;
+    border-style: none;
+
+}
+.youtube-apps{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    border-color: rgb(192,192,192);
+    
+    border-style: none;
+    background-color:white;
+
+}
+.notification{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    border-color: rgb(192,192,192);
+    background-color:white;
+    border-style: none;
+
+
+}
+.my-account{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    
+    display: flex;
+    align-items: center;
+    border-color: rgb(192,192,192);
+    background-color:white;
+    border-style: none;
+
+
+}
 
