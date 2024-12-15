@@ -79,7 +79,7 @@
 .right-section{
     
     width: 215px;
-    background-color: lightpink;
+    background-color: white;
     display: flex;
     align-items: center;
 }
@@ -122,16 +122,25 @@
 
 }
 .my-account{
-    height: 40px;
-    width: 40px;
-    border-radius:50%;
-    
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    border-color: rgb(192,192,192);
-    background-color:white;
+    width: 32px; 
+    height: 32px;
+    border-radius: 50%; 
     border-style: none;
-
+    margin-left:auto ; 
+    cursor: pointer; 
+    background-color: white;
+}
+.my-account img{
+    width: 32px;
+    height: 32px;
+    
 
 }
+
+
+
+
 
